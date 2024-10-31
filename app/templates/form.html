@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма ввода данных</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Введите данные для расчетов</h1>
+    <form action="/calculate" method="POST">
+        <div>
+            <label for="total_area">1. Общая площадь здания (кв. м.):</label>
+            <input type="text" id="total_area" name="total_area" required>
+        </div>
+        <div>
+            <label for="lease_area">2. Аренднопригодная площадь (кв. м.):</label>
+            <input type="text" id="lease_area" name="lease_area" required>
+        </div>
+        <div>
+            <label for="anchor_area">3. Площадь якорных арендаторов (%):</label>
+            <input type="text" id="anchor_area" name="anchor_area" required>
+        </div>
+        <div>
+            <label for="rate_first_period">4. Ставка на первый период (руб.):</label>
+            <input type="text" id="rate_first_period" name="rate_first_period" required>
+        </div>
+        <div>
+            <label for="rate_second_period">5. Ставка на второй период (руб.):</label>
+            <input type="text" id="rate_second_period" name="rate_second_period" required>
+        </div>
+        <div>
+            <label for="rate_third_period">6. Ставка на третий период (руб.):</label>
+            <input type="text" id="rate_third_period" name="rate_third_period" required>
+        </div>
+        <div>
+            <label for="rate_fourth_period">7. Ставка на четвертый период (руб.):</label>
+            <input type="text" id="rate_fourth_period" name="rate_fourth_period" required>
+        </div>
+        <div>
+            <label for="market_area">8. Площадь рыночных арендаторов (%):</label>
+            <input type="text" id="market_area" name="market_area" required>
+        </div>
+        <div>
+            <label for="market_rate">9. Ставка рыночных арендаторов (руб.):</label>
+            <input type="text" id="market_rate" name="market_rate" required>
+        </div>
+        <div>
+            <label for="operating_expenses">10. Операционные расходы арендатора (руб на 1 кв. м.):</label>
+            <input type="text" id="operating_expenses" name="operating_expenses" required>
+        </div>
+        <div>
+            <label for="actual_expenses">11. Фактические расходы собственника (руб на 1 кв. м.):</label>
+            <input type="text" id="actual_expenses" name="actual_expenses" required>
+        </div>
+        <div>
+            <label for="underloading">12. Недозагрузка (%):</label>
+            <input type="text" id="underloading" name="underloading" required>
+        </div>
+        <div>
+            <label for="capitalization_coefficient">13. Коэффициент капитализации для реверсии (%):</label>
+            <input type="text" id="capitalization_coefficient" name="capitalization_coefficient" required>
+        </div>
+        <div>
+            <label for="discount_rate">14. Ставка дисконтирования (%):</label>
+            <input type="text" id="discount_rate" name="discount_rate" required>
+        </div>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

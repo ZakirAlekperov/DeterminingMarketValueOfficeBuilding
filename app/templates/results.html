@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты расчетов</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Результаты расчетов</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Номер строки</th>
+                <th>Название (Единицы измерения)</th>
+                <th>Первый год</th>
+                <th>Второй год</th>
+                <th>Третий год</th>
+                <th>Четвертый год</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+            <tr>
+                <td>{{ result.number }}</td>
+                <td>{{ result.name }} ({{ result.unit }})</td>
+                <td>{{ result.value1 }}</td>
+                <td>{{ result.value2 }}</td>
+                <td>{{ result.value3 }}</td>
+                <td>{{ result.value4 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+        <!-- Кнопки для возврата и вывода PDF -->
+    <div style="margin-top: 20px;">
+        <a href="{{ url_for('form') }}">
+            <button style="margin-right: 10px;">Вернуться к форме</button>
+        </a>
+        <a href="{{ url_for('export_pdf') }}">
+            <button>Вывести в PDF</button>
+        </a>
+    </div>
+</body>
+</html>
