@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3855f216-3f26-4f83-a7a5-a4ed8cd014e0" name="Changes" comment="Новый проект">
-      <change afterPath="$PROJECT_DIR$/app/DejaVuSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3855f216-3f26-4f83-a7a5-a4ed8cd014e0" name="Changes" comment="Папа может" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,11 +85,20 @@
       <option name="project" value="LOCAL" />
       <updated>1730400630637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Папа может">
+      <option name="closed" value="true" />
+      <created>1730409597878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730409597878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новый проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новый проект" />
+    <MESSAGE value="Папа может" />
+    <option name="LAST_COMMIT_MESSAGE" value="Папа может" />
   </component>
 </project>
