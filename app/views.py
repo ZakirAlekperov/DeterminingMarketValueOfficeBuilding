@@ -42,70 +42,70 @@ def calculate():
 
     # Перменные для конфигурации
 
-    value_1_1 = 0
-    value_1_2 = 0
-    value_1_3 = 0
-    value_1_4 = 0
+    value_1_1 = lease_area
+    value_1_2 = lease_area
+    value_1_3 = lease_area
+    value_1_4 = lease_area
 
-    value_2_1 = 0
-    value_2_2 = 0
-    value_2_3 = 0
-    value_2_4 = 0
+    value_2_1 = rate_first_period
+    value_2_2 = rate_second_period
+    value_2_3 = rate_third_period
+    value_2_4 = rate_fourth_period
 
-    value_3_1 = 0
-    value_3_2 = 0
-    value_3_3 = 0
-    value_3_4 = 0
+    value_3_1 = market_rate
+    value_3_2 = market_rate
+    value_3_3 = market_rate
+    value_3_4 = market_rate
 
-    value_4_1 = 0
-    value_4_2 = 0
-    value_4_3 = 0
-    value_4_4 = 0
+    value_4_1 = operating_expenses
+    value_4_2 = operating_expenses
+    value_4_3 = operating_expenses
+    value_4_4 = operating_expenses
 
-    value_5_1 = 0
-    value_5_2 = 0
-    value_5_3 = 0
-    value_5_4 = 0
+    value_5_1 = value_2_1 + value_4_1
+    value_5_2 = value_2_2 + value_4_2
+    value_5_3 = value_2_3 + value_4_3
+    value_5_4 = value_2_4 + value_4_4
 
-    value_6_1 = 0
-    value_6_2 = 0
-    value_6_3 = 0
-    value_6_4 = 0
+    value_6_1 = value_3_1 + value_4_1
+    value_6_2 = value_3_1 + value_4_1
+    value_6_3 = value_3_1 + value_4_1
+    value_6_4 = value_3_1 + value_4_1
 
-    value_7_1 = 0
-    value_7_2 = 0
-    value_7_3 = 0
-    value_7_4 = 0
+    value_7_1 = value_5_1 * (value_1_1 * anchor_area / 100)
+    value_7_2 = value_5_2 * (value_1_1 * anchor_area / 100)
+    value_7_3 = value_5_3 * (value_1_1 * anchor_area / 100)
+    value_7_4 = value_5_4 * (value_1_1 * anchor_area / 100)
 
-    value_8_1 = 0
-    value_8_2 = 0
-    value_8_3 = 0
-    value_8_4 = 0
+    value_8_1 = value_6_1 * (value_1_1 * market_area / 100)
+    value_8_2 = value_6_2 * (value_1_1 * market_area / 100)
+    value_8_3 = value_6_3 * (value_1_1 * market_area / 100)
+    value_8_4 = value_6_4 * (value_1_1 * market_area / 100)
 
-    value_9_1 = 0
-    value_9_2 = 0
-    value_9_3 = 0
-    value_9_4 = 0
+    value_9_1 = underloading
+    value_9_2 = underloading
+    value_9_3 = underloading
+    value_9_4 = underloading
 
-    value_10_1 = 0
-    value_10_2 = 0
-    value_10_3 = 0
-    value_10_4 = 0
+    value_10_1 = value_8_1 * ((100 - value_9_1) / 100)
+    value_10_2 = value_8_1 * ((100 - value_9_1) / 100)
+    value_10_3 = value_8_1 * ((100 - value_9_1) / 100)
+    value_10_4 = value_8_1 * ((100 - value_9_1) / 100)
 
-    value_11_1 = 0
-    value_11_2 = 0
-    value_11_3 = 0
-    value_11_4 = 0
+    value_11_1 = value_7_1
+    value_11_2 = value_7_2
+    value_11_3 = value_7_3
+    value_11_4 = value_7_4
 
-    value_12_1 = 0
-    value_12_2 = 0
-    value_12_3 = 0
-    value_12_4 = 0
+    value_12_1 = value_10_1 + value_11_1
+    value_12_2 = value_10_1 + value_11_2
+    value_12_3 = value_10_1 + value_11_3
+    value_12_4 = value_10_1 + value_11_4
 
-    value_13_1 = 0
-    value_13_2 = 0
-    value_13_3 = 0
-    value_13_4 = 0
+    value_13_1 = actual_expenses
+    value_13_2 = actual_expenses
+    value_13_3 = actual_expenses
+    value_13_4 = actual_expenses
 
     value_14_1 = 0
     value_14_2 = 0
