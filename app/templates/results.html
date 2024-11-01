@@ -35,13 +35,15 @@
     </table>
 
         <!-- Кнопки для возврата и вывода PDF -->
-    <div style="margin-top: 20px;">
-        <a href="{{ url_for('form') }}">
-            <button style="margin-right: 10px;">Вернуться к форме</button>
-        </a>
-        <a href="{{ url_for('export_pdf') }}">
-            <button>Вывести в PDF</button>
-        </a>
-    </div>
+<div id="buttons-container" style="margin-top: 20px; display: flex; justify-content: flex-start;">
+    <a href="{{ url_for('form') }}">
+        <button class="compact-button">Вернуться к форме</button>
+    </a>
+    <a href="{{ url_for('export_pdf') }}">
+        <button class="compact-button">Вывести в PDF</button>
+    </a>
+</div>
+
+
 </body>
 </html>
