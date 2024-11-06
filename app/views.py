@@ -107,15 +107,15 @@ def calculate():
     value_13_3 = actual_expenses
     value_13_4 = actual_expenses
 
-    value_14_1 = 0
-    value_14_2 = 0
-    value_14_3 = 0
-    value_14_4 = 0
+    value_14_1 = value_13_1 *  total_area
+    value_14_2 = value_13_1 *  total_area
+    value_14_3 = value_13_1 *  total_area
+    value_14_4 = value_13_1 *  total_area
 
-    value_15_1 = 0
-    value_15_2 = 0
-    value_15_3 = 0
-    value_15_4 = 0
+    value_15_1 = value_12_1 -  value_14_1
+    value_15_2 = value_12_2 -  value_14_1
+    value_15_3 = value_12_3 -  value_14_1
+    value_15_4 = value_12_4 -  value_14_1
 
     value_16_1 = 0
     value_16_2 = 0
