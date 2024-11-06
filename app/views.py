@@ -117,15 +117,15 @@ def calculate():
     value_15_3 = value_12_3 -  value_14_1
     value_15_4 = value_12_4 -  value_14_1
 
-    value_16_1 = 0
-    value_16_2 = 0
-    value_16_3 = 0
-    value_16_4 = 0
+    value_16_1 = capitalization_coefficient
+    value_16_2 = capitalization_coefficient
+    value_16_3 = capitalization_coefficient
+    value_16_4 = capitalization_coefficient
 
-    value_17_1 = 0
-    value_17_2 = 0
-    value_17_3 = 0
-    value_17_4 = 0
+    value_17_1 = value_15_4/ value_16_1
+    value_17_2 = value_15_4/ value_16_1
+    value_17_3 = value_15_4/ value_16_1
+    value_17_4 = value_15_4/ value_16_1
 
     value_18_1 = 0
     value_18_2 = 0
